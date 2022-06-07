@@ -1,6 +1,49 @@
-# Getting Started with Create React App
+# Coding Challenge Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your challenge is to finish creating this React web app that serves as the frontend for this coding challenge and talks to the backend API via axios.
+
+In the end, you'll have a fully working web app that saves a "bookmark" of a website by fetching, displaying, and storing its metadata, such as the title, site name, description, keywords, and author.
+
+The data will be saved in the browser's local storage, so that a person's bookmark list persists between reloads and sessions.
+
+**NOTE**: You'll want to finish the backend first and run the server to actually test this end-to-end.
+
+(Also worth noting: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
+
+## Steps
+
+1. [Installation](#installation)
+2. [Implementation](#implementation)
+3. [Submission](#submission)
+
+### Installation
+
+Do NOT fork this repo.
+
+1. Clone this repo (and `cd` into it)
+2. [Install `yarn`](https://classic.yarnpkg.com/en/docs/install)
+3. Run `yarn`
+
+### Implementation
+
+(in any order you prefer)
+
+- In `src/db.ts`, finish `createBookmark()` and `getAllBookmarks()`.
+- In `src/App.tsx`, finish the `App` component and `bookmarkURL()`.
+- In `src/Form.tsx`, finish the `Form` component's `onChange()` and `onSubmit()`.
+- In `src/List.tsx`, finish the `List` component.
+
+### Submission
+
+Once again, do NOT fork this repo.
+
+When you're done and ready to submit your code in the application, follow these steps to push your code to your own GitHub repo:
+
+1. Create a new repository on GitHub.
+2. Remove the remote origin with: `git remote rm origin`
+3. Add the remote origin of your new repo with: `git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git`
+4. Push your code to your new repo with: `git push -u origin master` (or `main` or whatever your preferred branch name is)
+5. Copy the URL to your repo and add it to the application (https://github.com/YOUR-USERNAME/YOUR-REPO-NAME). (If you wish to keep your new repo private, you must add me, `davidhartsough`, as a collaborator: https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/access)
 
 ## Available Scripts
 
@@ -29,18 +72,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Linting/Formatting
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [ESLint](https://eslint.org/) - linting
+- [Prettier](https://prettier.io/) - formatting
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more about Create React App (CRA) from [its documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn more about React, check out the [React documentation](https://reactjs.org/).

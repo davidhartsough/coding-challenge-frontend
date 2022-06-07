@@ -1,0 +1,77 @@
+.bookmarks {
+  margin: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 34rem) {
+  .bookmarks {
+    display: block;
+  }
+}
+.bookmark {
+  display: block;
+  flex: 0 0 calc(50% - 0.5rem);
+  color: hsl(216, 16%, 98%);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 0.25rem;
+  border: 1px solid hsl(216, 16%, 98%);
+  line-height: 1.125;
+}
+.bookmark:hover {
+  background: hsla(216, 16%, 98%, 0.1);
+}
+.bookmark:focus {
+  background: hsla(216, 16%, 98%, 0.2);
+}
+.title {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.15;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid hsla(216, 16%, 98%, 0.2);
+}
+.site {
+  margin: 0.125rem 0;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.author {
+  margin: 0.125rem 0;
+  font-style: italic;
+}
+.description {
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.75rem 0 0.5rem;
+}
+.keyword {
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  color: hsl(216, 16%, 98%);
+  line-height: 1;
+  letter-spacing: normal;
+  margin: 0 0.25rem 0.25rem 0;
+  max-width: calc(100% - 0.25rem);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: 1px solid hsl(216, 16%, 98%);
+  display: block;
+  font-weight: normal;
+  user-select: text;
+  text-align: left;
+}
+.date {
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+  font-style: italic;
+}

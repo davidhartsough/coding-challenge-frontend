@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
+  "rules": {
+    "alpha-value-notation": "number",
+    "rule-empty-line-before": null,
+    "comment-empty-line-before": null,
+    "color-function-notation": "legacy",
+    "hue-degree-notation": "number",
+    "font-family-name-quotes": "always-unless-keyword"
+  }
+}
