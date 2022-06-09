@@ -10,7 +10,6 @@
   "bugs": {
     "url": "https://github.com/davidhartsough/coding-challenge-frontend/issues"
   },
-  "homepage": "https://github.com/davidhartsough/coding-challenge-frontend#readme",
   "keywords": [
     "coding",
     "challenge",
@@ -18,6 +17,7 @@
     "react",
     "web",
     "app",
+    "javascript",
     "typescript"
   ],
   "dependencies": {
