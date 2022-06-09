@@ -1,6 +1,6 @@
 # Coding Challenge Frontend
 
-Your challenge is to finish creating this React web app that serves as the frontend for this coding challenge and talks to the backend API via axios.
+Your challenge is to finish creating this React web app that serves as the frontend for this coding challenge and talks to [the backend API](https://github.com/davidhartsough/coding-challenge-backend) via axios.
 
 In the end, you'll have a fully working web app that saves a "bookmark" of a website by fetching, displaying, and storing its metadata, such as the title, site name, description, keywords, and author.
 
@@ -8,7 +8,7 @@ The data will be saved in the browser's local storage, so that a person's bookma
 
 ### Important Notes
 
-1. You'll probably want to finish the backend first and run the server to actually test this end-to-end.
+1. You'll probably want to finish [the backend](https://github.com/davidhartsough/coding-challenge-backend) first and run the server to actually test this end-to-end.
 2. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and thus heavily relies on React experience. If you do not have experience with React, I still encourage you to try using this code as-is and give it your best shot. However, if you feel much more competent and comfortable with an alternative JS/TS framework, _feel free to use that instead_ 👌
    - The goal of these challenges is to evaluate your full-stack JavaScript skills, so don't worry about particularities with libraries or frameworks.
 3. Similarly, if you don't want to use [Axios](https://axios-http.com/), then use any alternative HTTP client you prefer. I just tend to think it's the easiest and most common HTTP client to use.
