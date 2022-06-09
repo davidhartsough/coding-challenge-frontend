@@ -6,9 +6,12 @@ In the end, you'll have a fully working web app that saves a "bookmark" of a web
 
 The data will be saved in the browser's local storage, so that a person's bookmark list persists between reloads and sessions.
 
-**NOTE**: You'll want to finish the backend first and run the server to actually test this end-to-end.
+### Important Notes
 
-(Also worth noting: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
+1. You'll probably want to finish the backend first and run the server to actually test this end-to-end.
+2. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and thus heavily relies on React experience. If you do not have experience with React, I still encourage you to try using this code as-is and give it your best shot. However, if you feel much more competent and comfortable with an alternative JS/TS framework, _feel free to use that instead_ 👌
+   - The goal of these challenges is to evaluate your full-stack JavaScript skills, so don't worry about particularities with libraries or frameworks.
+3. Similarly, if you don't want to use [Axios](https://axios-http.com/), then use any alternative HTTP client you prefer. I just tend to think it's the easiest and most common HTTP client to use.
 
 ## Steps
 
@@ -21,8 +24,7 @@ The data will be saved in the browser's local storage, so that a person's bookma
 Do NOT fork this repo.
 
 1. Clone this repo (and `cd` into it)
-2. [Install `yarn`](https://classic.yarnpkg.com/en/docs/install)
-3. Run `yarn`
+2. Install the dependencies using yarn or npm. (I used yarn [hence the `yarn.lock` file].)
 
 ### Implementation
 
@@ -57,21 +59,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ## Linting/Formatting
 
 - [ESLint](https://eslint.org/) - linting
@@ -79,6 +66,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
-You can learn more about Create React App (CRA) from [its documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Here are some useful links and resources:
 
-To learn more about React, check out the [React documentation](https://reactjs.org/).
+- [React](https://reactjs.org/)
+- [Create React App (CRA)](https://facebook.github.io/create-react-app/docs/getting-started)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Yarn](https://classic.yarnpkg.com/lang/en/)
+- [Axios](https://axios-http.com/)
