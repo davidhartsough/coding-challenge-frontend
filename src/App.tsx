@@ -6,7 +6,7 @@ import List from "./List";
 
 export default function App() {
   const [bookmarks, setBookmarks] = useState([]);
-  const bookmarkURL = async (url: string) => {
+  const saveBookmarkFromURL = async (url: string) => {
     // TODO: implement using createBookmark
   };
   return (
@@ -15,7 +15,7 @@ export default function App() {
         <header>
           <h1>URL Bookmarker</h1>
         </header>
-        <Form bookmarkURL={bookmarkURL} />
+        <Form saveBookmarkFromURL={saveBookmarkFromURL} />
         <List bookmarks={bookmarks} />
       </section>
     </main>

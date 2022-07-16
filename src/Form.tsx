@@ -6,9 +6,9 @@ const urlPattern =
 const isValidURL = (url: string): boolean => urlPattern.test(url);
 
 type Props = {
-  bookmarkURL: (url: string) => Promise<void>;
+  saveBookmarkFromURL: (url: string) => Promise<void>;
 };
-export default function Form({ bookmarkURL }: Props) {
+export default function Form({ saveBookmarkFromURL }: Props) {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [hasHasInputError, setHasInputError] = useState(false);
