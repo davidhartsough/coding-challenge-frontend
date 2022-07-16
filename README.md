@@ -64,6 +64,20 @@ You will also see any lint errors in the console.
 - [ESLint](https://eslint.org/) - linting
 - [Prettier](https://prettier.io/) - formatting
 
+As you complete the challenge, you are encouraged to lint and format your code.
+
+In the root project directory, you can run the following scripts:
+
+```bash
+yarn lint
+```
+
+Or, to let eslint try to fix your code according to the linter and formatter standards, run:
+
+```bash
+yarn lint:fix
+```
+
 ## Learn More
 
 Here are some useful links and resources:
